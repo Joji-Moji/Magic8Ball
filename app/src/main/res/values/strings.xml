@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MagicBall</string>
+    <string name="app_name">Magic8Ball</string>
+    <string name="exit">Exit</string>
+    <string name="sound">Sound</string>
+    <string name="language">Language</string>
+
 </resources>
