@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Magic8Ball</string>
+    <string name="app_name">Menu</string>
     <string name="exit">Exit</string>
     <string name="sound">Sound</string>
     <string name="language">Language</string>

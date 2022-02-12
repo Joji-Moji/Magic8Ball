@@ -11,18 +11,16 @@
     android:title="@string/sound"
     android:icon="@drawable/ic_sound_on"
     android:id="@+id/sound_on"
-    app:showAsAction="ifRoom"
+        app:showAsAction="ifRoom"
     />
     <item
     android:title="@string/sound"
     android:icon="@drawable/ic_sound_off"
     android:id="@+id/sound_off"
-    app:showAsAction="ifRoom"
     />
     <item
     android:title="@string/language"
     android:icon="@drawable/ic_language"
     android:id="@+id/language"
-        app:showAsAction="ifRoom"
     />
 </menu>
