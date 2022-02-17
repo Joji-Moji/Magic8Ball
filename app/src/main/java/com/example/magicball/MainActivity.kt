@@ -2,6 +2,8 @@ package com.example.magicball
 
 import android.animation.Animator
 import android.annotation.SuppressLint
+import android.app.SearchManager
+import android.graphics.Color.red
 import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,7 +16,7 @@ import android.widget.ImageView
 import androidx.core.view.ViewCompat
 import com.example.magicball.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
 
     private lateinit var bindingClass: ActivityMainBinding
 
@@ -23,24 +25,24 @@ class MainActivity : AppCompatActivity() {
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
 
-
+        //ball
         bindingClass.imageView.setOnClickListener {
             bindingClass.answer.text = getArr()
-            AnimationUtils.loadAnimation(this,R.anim.tv_animation)
         }
+        //exit
+        bindingClass.buttonExit.setOnClickListener {
+            finish()
+        }
+        //language
+        bindingClass.buttonLang.setOnClickListener {
 
+        }
+        //sound
+        bindingClass.buttonSound.setOnClickListener{
 
-
+        }
     }
 
-    private fun viewAnimate(){
-        ViewCompat.animate(bindingClass.answer)
-            .translationX(50f)
-            .translationY(100f)
-            .setDuration(1000)
-            .setInterpolator(AccelerateDecelerateInterpolator()).startDelay = 50
-
-    }
 
     private fun getArr(): String{
         return resources.getStringArray(R.array.arr)[randomNumber()]
@@ -51,23 +53,5 @@ class MainActivity : AppCompatActivity() {
         return(0..size).random()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.mine_menu, menu)
-        return true
-    }
 
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId){
-
-            R.id.exit -> finish()
-            R.id.sound_on ->{
-
-            }
-            R.id.language ->{
-
-            }
-        }
-        return true
-    }
 }
