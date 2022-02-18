@@ -1,24 +1,16 @@
 package com.example.magicball
 
-import android.animation.Animator
-import android.annotation.SuppressLint
-import android.app.SearchManager
-import android.graphics.Color.red
-import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
-import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.AnimationUtils
-import android.widget.ImageView
-import androidx.core.view.ViewCompat
 import com.example.magicball.databinding.ActivityMainBinding
 
 open class MainActivity : AppCompatActivity() {
 
     private lateinit var bindingClass: ActivityMainBinding
+
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,8 +18,11 @@ open class MainActivity : AppCompatActivity() {
         setContentView(bindingClass.root)
 
         //ball
-        bindingClass.imageView.setOnClickListener {
+        bindingClass.imageView.setOnClickListener{
+
+            val animAnswer= AnimationUtils.loadAnimation(this, R.anim.anim_answer)
             bindingClass.answer.text = getArr()
+            bindingClass.answer.startAnimation(animAnswer)
         }
         //exit
         bindingClass.buttonExit.setOnClickListener {
@@ -38,8 +33,9 @@ open class MainActivity : AppCompatActivity() {
 
         }
         //sound
-        bindingClass.buttonSound.setOnClickListener{
 
+
+        bindingClass.buttonSound.setOnClickListener{
         }
     }
 
