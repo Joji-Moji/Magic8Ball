@@ -9,7 +9,7 @@
     tools:visibility="visible">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageBall"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,11 +31,11 @@
         android:text="@string/definitely_yes"
         android:textColor="#00ACC1"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBall"
+        app:layout_constraintEnd_toEndOf="@+id/imageBall"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageBall"
+        app:layout_constraintTop_toTopOf="@+id/imageBall"
         app:layout_constraintVertical_bias="0.41" />
 
     <TextView
