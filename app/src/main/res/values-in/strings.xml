@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Keluar</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="definitely_yes">Jelas ya</string>
+    <string name="definitely_not">Jelas tidak</string>
+    <string name="maybe">Mungkin</string>
+    <string name="maybe_later">Mungkin nanti</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="everything_is_possible">Semuanya mungkin</string>
+    <string name="ask_me">Tanyakan sesuatu</string>
+    <string name="app_name">Bola Ajaib</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Изход</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="definitely_yes">Определено да</string>
+    <string name="definitely_not">Определено не</string>
+    <string name="maybe">Може би</string>
+    <string name="maybe_later">Може би по-късно</string>
+    <string name="try_again">Опитайте отново</string>
+    <string name="everything_is_possible">Всичко е възможно</string>
+    <string name="ask_me">Попитайте ме нещо</string>
+    <string name="app_name">Магическа Топка</string>
+
+</resources>

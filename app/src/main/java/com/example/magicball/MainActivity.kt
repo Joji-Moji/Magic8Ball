@@ -42,12 +42,6 @@ open class MainActivity : AppCompatActivity() {
             finish()
         }
 
-        //language
-        bindingClass.buttonLang.setOnClickListener {
-
-        }
-
-        //sound
     }
 
     override fun onResume() {

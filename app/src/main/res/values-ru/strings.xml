@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Выход</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="definitely_yes">Определенно да</string>
+    <string name="definitely_not">Определенно нет</string>
+    <string name="maybe">Может быть</string>
+    <string name="maybe_later">Возможно позже</string>
+    <string name="try_again">Попробуй ещё раз</string>
+    <string name="everything_is_possible">Всё возможно</string>
+    <string name="ask_me">Спроси меня о чем-нибудь</string>
+    <string name="app_name">Волшебный Шар</string>
+
+</resources>
