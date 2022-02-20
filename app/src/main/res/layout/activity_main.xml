@@ -8,6 +8,16 @@
     tools:context=".MainActivity"
     tools:visibility="visible">
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize = "BANNER"
+        app:adUnitId = "ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageBall"
         android:layout_width="0dp"
@@ -75,18 +85,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/buttonSound"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/ic_sound_on"
-        android:rotationY="10"
-        app:layout_constraintEnd_toEndOf="@+id/buttonLang"
-        app:layout_constraintStart_toStartOf="@+id/buttonLang"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLang"
-
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

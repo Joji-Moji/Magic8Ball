@@ -6,12 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import com.example.magicball.databinding.ActivityMainBinding
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
 
 open class MainActivity : AppCompatActivity() {
 
     private lateinit var bindingClass: ActivityMainBinding
-
-
 
 
 
@@ -20,7 +20,8 @@ open class MainActivity : AppCompatActivity() {
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
 
-
+        unitAdMob()
+        (application as AppMainState).showAdIfAvailable(this){}
 
         //ball
         bindingClass.imageBall.setOnClickListener{
@@ -46,11 +47,22 @@ open class MainActivity : AppCompatActivity() {
 
         }
 
-
-
         //sound
-        bindingClass.buttonSound.setOnClickListener{
-        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        bindingClass.adView.resume()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        bindingClass.adView.pause()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        bindingClass.adView.destroy()
     }
 
 
@@ -65,7 +77,11 @@ open class MainActivity : AppCompatActivity() {
         return(0..size).random()
     }
 
-
+    private fun unitAdMob(){
+        MobileAds.initialize(this)
+        val adRequest = AdRequest.Builder().build()
+        bindingClass.adView.loadAd(adRequest)
+    }
 
 
 }
