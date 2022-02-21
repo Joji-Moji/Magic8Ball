@@ -23,14 +23,16 @@ open class MainActivity : AppCompatActivity() {
         unitAdMob()
         (application as AppMainState).showAdIfAvailable(this){}
 
+
         //ball
         bindingClass.imageBall.setOnClickListener{
             bindingClass.answer.text = getArr()
 
-           val vibratorService = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            val vibratorService = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            val animBall= AnimationUtils.loadAnimation(this, R.anim.anim_ball)
+            val animAnswer= AnimationUtils.loadAnimation(this, R.anim.anim_answer)
 
-           val animBall= AnimationUtils.loadAnimation(this, R.anim.anim_ball)
-           val animAnswer= AnimationUtils.loadAnimation(this, R.anim.anim_answer)
+
 
            vibratorService.vibrate(600)
            bindingClass.imageBall.startAnimation(animBall)
