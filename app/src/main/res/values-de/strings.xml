@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Ausfahrt</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="definitely_yes">Eindeutig ja</string>
+    <string name="definitely_not">Definitiv nicht</string>
+    <string name="maybe">Vielleicht</string>
+    <string name="maybe_later">Vielleicht später</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="everything_is_possible">Alles ist möglich</string>
+    <string name="ask_me">Fragen Sie mich etwas</string>
+    <string name="app_name">Zauberball</string>
+
+</resources>

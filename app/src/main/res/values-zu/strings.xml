@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Phuma</string>
+    <string name="yes">Yebo</string>
+    <string name="no">Cha</string>
+    <string name="definitely_yes">Nakanjani yebo</string>
+    <string name="definitely_not">Akunjalo neze</string>
+    <string name="maybe">Kungenzeka</string>
+    <string name="maybe_later">Mhlawumbe ngukuhamba kwesikhathi</string>
+    <string name="try_again">Zama futhi</string>
+    <string name="everything_is_possible">Konke kungenzeka</string>
+    <string name="ask_me">Ngibuze okuthile</string>
+    <string name="app_name">Ibhola Eliwumlingo</string>
+
+</resources>

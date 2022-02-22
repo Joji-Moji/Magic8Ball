@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Thoát</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="definitely_yes">Chắc chắn là có</string>
+    <string name="definitely_not">Chắc chắn không</string>
+    <string name="maybe">Có lẽ</string>
+    <string name="maybe_later">Có lẽ sau này</string>
+    <string name="try_again">Thử lại</string>
+    <string name="everything_is_possible">Mọi thứ đều có thể</string>
+    <string name="ask_me">Hỏi tôi điều gì đó</string>
+    <string name="app_name">Quả bóng ma thuật</string>
+
+</resources>

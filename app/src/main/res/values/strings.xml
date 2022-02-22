@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Magic Ball</string>
+    <string name="exit">Exit</string>
+    <string name="sound" translatable="false">Sound</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="definitely_yes">Definitely yes</string>
+    <string name="definitely_not">Definitely not</string>
+    <string name="maybe">Maybe</string>
+    <string name="maybe_later">Maybe later</string>
+    <string name="try_again">Try again</string>
+    <string name="everything_is_possible">Everything is possible</string>
+    <string name="ask_me">Ask me something</string>
+
+</resources>

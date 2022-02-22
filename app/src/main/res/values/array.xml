@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+        <item>@string/definitely_not</item>
+        <item>@string/definitely_yes</item>
+        <item>@string/maybe</item>
+        <item>@string/maybe_later</item>
+        <item>@string/try_again</item>
+        <item>@string/everything_is_possible</item>
+
+    </string-array>
+</resources>

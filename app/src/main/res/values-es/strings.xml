@@ -1,0 +1,14 @@
+<resources>
+    <string name="exit">Salida</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="definitely_yes">Definitivamente sí</string>
+    <string name="definitely_not">Definitivamente no</string>
+    <string name="maybe">Tal vez</string>
+    <string name="maybe_later">Tal vez más tarde</string>
+    <string name="try_again">Inténtalo de nuevo</string>
+    <string name="everything_is_possible">Todo es posible</string>
+    <string name="ask_me">Pregúntame algo</string>
+    <string name="app_name">Bola Mágica</string>
+
+</resources>
